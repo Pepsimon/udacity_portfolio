@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio Site</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Saira+Condensed:300,500" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <span class="fab fa-playstation fa-5x" alt="playstation logo"></span>
+      </div>
+      <div class="name-title">
+        <h1 id="name">PETER P. SIMONSEN</h1>
+        <p id="title">'web-dev in training'</p>
+      </div>
+    </header>
+    <hr>
+    <section class="top-image">
+      <picture class="image-container">
+        <source media="(max-width: 549px)" srcset="images/me_mobile.jpg">
+        <source media="(min-width: 550px)" srcset="images/me_large.jpg">
+        <img class="image-me" src="images/me_large.jpg" alt="Picture of Peter.">
+      </picture>
+    </section>
+    <section class="feat-work">
+      <h2 id="feat-title">Featured Work</h2>
+      <div class="first-work">
+        <picture>
+          <source media="(max-width: 549px)" srcset="images/orange_stage_mobile.jpg">
+          <source media="(min-width: 550px)" srcset="images/orange_stage_large.jpg">
+          <img class="orange-stage" src="images/orange_stage_large.jpg" alt="Black and white picture of my friends in front of the Roskilde festival's Orange Stage.">
+          <p class="orange-title">ORANGE STAGE</p>
+        </picture>
+      </div>
+      <div class="second-work">
+        <picture>
+          <source media="(max-width: 549px)" srcset="images/drinks_mobile.jpg">
+          <source media="(min-width: 550px)" srcset="images/drinks_large.jpg">
+          <img class="drinks" src="images/drinks_large.jpg" alt="Black and white picture of my friends in front of the Roskilde festival's Orange Stage.">
+        </picture>
+        <p class="drinks-title">DRINKS</p>
+      </div>
+      <div class="third-work">
+        <picture>
+          <source media="(max-width: 549px)" srcset="images/animal_party_mobile.jpg">
+          <source media="(min-width: 550px)" srcset="images/animal_party_large.jpg">
+          <img class="animal-party" src="images/animal_party_large.jpg" alt="People with animal masks, dancing in front of a boombox the size of a trailer.">
+        </picture>
+        <p class="animal-title">ANIMAL PARTY</p>
+      </div>
+    </section>
+    <footer>
+      <div class="github">
+        <a target="_blank" href="https://github.com/Pepsimon"><span class="fab fa-github fa-2x"></span></a>
+      </div>
+    </footer>
+  </body>
+
+</html>
