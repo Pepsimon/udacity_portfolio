@@ -26,13 +26,13 @@ header {
 }
 
 .logo {
-  display: none;
-  width: 30%;
+  width: 54px;
+  margin: auto;
   margin-top: 10px;
 }
 
 .name-title {
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 
@@ -52,18 +52,28 @@ header {
   color: #ffefbd;
 }
 
-/* ---------------Top (Image) Section--------------- */
+/* ---------------Top Section--------------- */
 
-.top-image {
+.top-section {
   display: inline-block;
   width: 100%;
+}
+
+.top-caption {
+  position: absolute;
+  width: 100;
+  margin-left: 20px;
+  line-height: 200px;
+  vertical-align: middle;
+  font-size: 1em;
+  color: #8affe2;
 }
 
 .image-container {
   width: inherit;
 }
 
-.image-me {
+.image-src {
   width: inherit;
 }
 
